@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --color1: #16002b;
+    --color2: #3C096C;
+    --color3: #5A189A;
+    --color4: #7B2CBF;
+    --color5: #8C3DCE;
+    --color6: #9D4EDD;
+    --color7: #C77DFF;
+    --color8: #D494FF;
+    --fonte: "Playfair Display", serif;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+.comeco{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fim{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.discos{
+    width: 40%;
+    height: auto;
+    padding: 10px 10px 10px 55px;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.discos:hover{
+    transform: scale(1.1);
+}
+
+.produto{
+    background-color: var(--color6);
+}
+
+.subtitulo{
+    padding-left: 20px;
+    font-size: 2.5vw;
+}
+
+.subtituloDois{
+    padding-left: 20px;
+    font-size: 2.5vw;
+    background-color: white; 
+}
+
+.pes{
+    font-size: 1.5vw;
+
+}
+
+.cliente{
+    text-align: center;
+}
+
+.campos{
+    text-align: left;
+
+}
+
+.borda{
+    border: #16002b 5px solid;
+}
+
+.Mensagem{
+    width: 250px;
+    height: 50px;
+}
+
+.formulario{
+    width: 250px;
+    height: 20px;
+}
+
+.quizh{
+    padding: 10px 10px 10px 10px;
+}
+
+.video{
+    text-align: center;
+    margin: 10px 10px 15px 10px;
+}
+
+.ari1{
+    width: 30%;
+    height: auto;
+    padding: 10px 10px 10px 55px;
+    
+}
+
+#enviar{
+    width: 97%;
+    margin: 12px;
+    margin-top: 40px;
+}
+ 
+#reiniciar{
+    width: 97%;
+    margin: 12px; 
+}
+
+nav{
+    background-color: var(--color6);
+    border-radius: 2px;
+    height: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+     
+}
+
+nav a:hover{
+    background-color: var(--color4);
+    padding: 15px 30px 15px 30px;
+    
+}
+
+nav p{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+section{
+    background-color: white;
+    /*border-radius: 10px;*/
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2{
+    padding-bottom: 10px;
+    font-size: 1.5vw;
+    padding-top: 10px;
+    color: var(--color1);
+    background-color: var(--color6);
+    padding: 10px 10px 10px 10px;
+}
+
+section p{
+   padding-bottom: 20px;
+   font-size: 1vw;
+   margin-left: 10px;
+   margin-right: 10px;
+   gap: 20px;
+   line-height: 20px; /*Para dar espaço de uma linha para outra dentro de um <p>*/
+}
+
+fieldset{
+    text-align: auto;
+}
+
+form fieldset{
+    border: none;
+}
+
+h1{
+    font-family: var(--fonte);
+    text-align: center;
+    padding-top: 40px;
+    /*text-transform: uppercase;
+    coloca o texto todo em maiúsculo*/
+    padding-bottom: 30px;
+    font-size: 4vw;
+}
+
+h3{
+    padding: 10px 10px 10px 10px;
+}
+
+button{
+    color: var(--color1);
+    background-color: #8C3DCE;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    margin: 10px 10px 10px 10px; 
+}
+
+audio{
+    width: 850px;
+    height: 40px;
+    margin: auto;
+    margin: 10px 10px 10px 20px; 
+}
+
+label{
+    padding: 10px 10px 10px 10px;
+}
+
+iframe{
+    text-align: center;
+}
+
+/*input,*/
+textarea{
+    /* Para certificar-se que todos os campos de texto tem as mesmas configurações de fonte */
+    font: 1em sans-serif;
+ 
+    /* Para dar o mesmo tamanho a todos os campos de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ 
+    /* Para harmonizar o look & feel das bordas nos campos de texto */
+    border: 1px solid #999;
+}
+ 
+ 
+/*input:focus,*/
+textarea:focus{
+    /* Dar um pouco de destaques nos elementos ativos */
+    border-color: #000;
+}
+ 
+textarea{
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label */
+    vertical-align: top;
+ 
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 10em;
+ 
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
